@@ -84,3 +84,7 @@ Testes cobrem cálculos conhecidos, precisão decimal, agrupamento mensal e mese
 Consulte [Arquitetura](docs/arquitetura.md) e [Guia de portfólio e GitHub](docs/portfolio.md).
 
 Esta primeira versão usa um servidor local de desenvolvimento, acessível apenas no computador. GitHub hospeda o código; **GitHub Pages não executa o processamento Python**. Para uma demonstração pública completa, uma hospedagem com Python e controles adicionais deverá ser escolhida em outra etapa. O projeto financeiro não é alterado por este sistema.
+
+## Hospedagem pública
+
+A versão WSGI em `app/cloud.py` está preparada para Render Free, com configuração em `render.yaml`. Veja [instruções de publicação](docs/hospedagem.md). A chave é configurada somente nos Secrets da hospedagem. A aplicação pode ser incorporada no portfólio após validar a URL real atribuída pelo Render.
