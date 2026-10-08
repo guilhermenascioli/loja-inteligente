@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+.env
+dados/uploads/
+.runtime/
+*.pyc
+.pytest_cache/
+.env.*
+!.env.example
+outputs/
